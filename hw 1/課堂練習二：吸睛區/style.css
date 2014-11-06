@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+手機圖 http://i.imgur.com/DH1JUY1.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+
+section{
+  width: 960px;
+  margin: 0 auto;
+  height: 600px;
+  position: relative;
+  font-size: 20px;
+  background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+   
+  }
+#cell{
+  position: absolute;
+  top: 0;
+  left: 160px;
+
+}
+
+div{
+  
+  position: absolute;
+  top: 80px;
+  left: 560px;
+}
+
+h1{
+   font-size: 40px;
+}
+ul{
+list-style:none;
+padding-left:0;
+}
+
+#price{
+  font-size: 24px;
+  margin-top:10px;
+}
+
+button{
+  padding: 10px 40px;
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+  border-radius:100px;
+
+}
+a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:20px;}
